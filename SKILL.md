@@ -4,7 +4,7 @@ display_name: PromptShield · AI 安全盾
 display_name_en: PromptShield — AI Safety Shield
 slug: ai-safety-suite
 title: PromptShield · AI 安全盾（防注入 / 防泄漏 / 防越权一站式）
-version: 1.0.0
+version: 1.0.1
 description: "One install, your agent stops leaking secrets and obeying injected instructions: a lifecycle suite for agent runtime safety — red-team drill -> injection shield -> prompt-leak scan -> tool-call / loop / MCP guards -> skill admission gate. Orchestrates 9 independently published sub-skills by slug; vendors no internals. Use when the user wants prompt-injection defense, prompt/secret leak scanning, runtime call guarding, or a skill admission gate."
 description_zh: "一次安装，让你的智能体不再泄漏密钥、不再被注入指令带偏：面向智能体运行时安全的生命周期套件——红队演练 -> 注入防护 -> 提示词泄漏扫描 -> 工具调用/失控循环/MCP 守卫 -> 技能准入门禁。按 slug 编排 9 个已独立发布的子技能，不内嵌子包内部实现。当用户要防提示词注入、扫描密钥泄漏、给工具调用加守卫或做技能准入门禁时使用。"
 description_en: "One install, your agent stops leaking secrets and obeying injected instructions: a lifecycle suite for agent runtime safety — red-team drill -> injection shield -> prompt-leak scan -> tool-call / loop / MCP guards -> skill admission gate. Orchestrates 9 independently published sub-skills by slug; vendors no internals."
@@ -42,7 +42,7 @@ input_schema:
 output_schema:
   stdout: 路由表（环节 | slug | 何时用 | 调用说明 | 预期输出）
   exit_code: "rc=0 正常；rc=2 未知环节/slug"
-changelog: "1.0.0: Initial bilingual collection (PromptShield / ai-safety-suite) — orchestrates 9 published agent-runtime-safety sub-skills by slug; mirrors superpowers methodology-suite shape with LGD three-law badges embedded."
+changelog: "1.0.1: Bump to dodge ClawHub version conflict on first submit; 1.0.0: Initial bilingual collection (PromptShield / ai-safety-suite) — orchestrates 9 published agent-runtime-safety sub-skills by slug; mirrors superpowers methodology-suite shape with LGD three-law badges embedded."
 ---
 
 > 凡自治之物 · LGD 治理学 · 创造术家族 ｜ 评测协议：skill-quality-gate

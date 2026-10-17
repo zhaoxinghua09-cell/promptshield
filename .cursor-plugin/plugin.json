@@ -1,7 +1,7 @@
 {
   "name": "promptshield",
   "displayName": "PromptShield · AI Safety Shield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI safety lifecycle suite: red-team drill, injection shield, leak scanner, tool-call/loop/MCP guards, skill admission gate.",
   "author": "SynomosAI",
   "license": "MIT",
