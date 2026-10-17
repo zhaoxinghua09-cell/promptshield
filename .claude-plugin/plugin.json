@@ -1,0 +1,12 @@
+{
+  "name": "promptshield",
+  "version": "1.0.0",
+  "description": "PromptShield — AI safety shield: red-team drill -> injection shield -> leak scan -> runtime guards -> admission gate. 9 independently published sub-skills orchestrated by slug; no internals vendored.",
+  "description_zh": "PromptShield · AI 安全盾：红队演练 -> 注入防护 -> 泄漏扫描 -> 运行时守卫 -> 准入门禁。按 slug 编排 9 个已发布子技能，不复制内部实现。",
+  "author": "SynomosAI",
+  "license": "MIT",
+  "homepage": "https://github.com/zhaoxinghua09-cell/promptshield",
+  "skills": [
+    { "path": "./SKILL.md" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "promptshield",
+  "version": "1.0.0",
+  "description": "PromptShield — AI safety lifecycle suite (red-team -> injection shield -> leak scan -> runtime guards -> admission gate). Orchestrates 9 published sub-skills by slug.",
+  "author": "SynomosAI",
+  "license": "MIT",
+  "homepage": "https://github.com/zhaoxinghua09-cell/promptshield",
+  "skill_entry": "./SKILL.md"
+}
