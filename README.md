@@ -154,3 +154,16 @@ promptshield/
 ---
 
 *PromptShield · SynomosAI · part of the LGD skill family. This collection references sub-skills by slug only; no sub-package internals are vendored, and the confidential `agent-redteam-kit` is cited by capability name only.*
+
+---
+
+## License / 许可
+
+本仓为**混合仓**：路由代码与方法论文本采用不同许可。
+
+- **代码（MIT）**：`scripts/promptshield_flow.py`、`install.sh`、`install.ps1` 及各插件 shim 清单以 MIT 许可发布，见 [LICENSE](LICENSE)。
+- **方法论文本（保留所有权利）**：`SKILL.md` 与 `README.md` 等文档正文不属 MIT，可在署名后短引与链接；转载、改编、入训练语料须书面申请，见 [LICENSE-CONTENT](LICENSE-CONTENT)。
+- 9 个被引用的子技能按 slug 引用、不内嵌实现；各子技能以其各自许可证为准。
+
+安全问题请按 [SECURITY.md](SECURITY.md) 私下报告；贡献见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+联系：zhaoxinghua09@gmail.com ｜ ORCID 0009-0001-0512-1237

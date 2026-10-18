@@ -1,0 +1,58 @@
+# PromptShield · AI Safety Suite (promptshield) — full text
+
+This file is the "full" edition of the llms.txt standard, for long-context models.
+
+## What this is
+
+`promptshield` (slug: ai-safety-suite) is a *methodology collection* for agent
+runtime safety. One install, your agent stops leaking secrets and obeying
+injected instructions. It has the same shape as top-of-ecosystem superpowers
+collections: one repo, one `SKILL.md` orchestrator, multi-vendor plugin shims,
+and a one-page ASCII lifecycle map. Where external collections ship *tools
+without governance*, PromptShield ships theory (LGD three laws) + skills +
+evidence chain + admission gates as one auditable unit.
+
+## The safety lifecycle (five stages)
+
+1. **RED-TEAM** — `agent-redteam-kit` (confidential, capability name only) and
+   `prompt-injection-drill`: attack first so you know what to defend.
+2. **SHIELD** — `prompt-injection-shield`: block hostile input at runtime.
+3. **LEAK** — `prompt-leak-scanner` and `token-disclosure-check`: find what you
+   expose before shipping.
+4. **GUARD** — `tool-call-guard`, `agent-loop-guard`, `mcp-security-scan`:
+   control what the agent may call (tools / loops / MCP).
+5. **GATE** — `skill-admission-gate`: decide what may enter the library.
+
+## Quick start
+
+```bash
+git clone https://github.com/zhaoxinghua09-cell/promptshield.git
+cd promptshield
+
+# the whole lifecycle
+python3 scripts/promptshield_flow.py --list
+
+# how to run one stage (e.g. the guard stage)
+python3 scripts/promptshield_flow.py --route guard
+```
+
+Per-agent install: Claude Code `claude plugin install promptshield@promptshield`;
+Codex drop `.codex-plugin/` next to your project; Cursor copy `.cursor-plugin/`.
+
+## Trigger words
+
+agent runtime safety / prompt injection shield / secret leak scan / prompt-leak /
+tool-call guard / agent loop guard / MCP security scan / red-team drill /
+skill admission gate / 智能体运行时安全 / 注入防护 / 泄漏扫描 / 停机与守卫.
+
+## License and rights
+
+- **Router code** (`scripts/*.py`, installers, plugin shims): MIT — see `LICENSE`.
+- **Methodology prose** (`SKILL.md`, `README.md` docs): all rights reserved;
+  short citation and linking allowed with attribution — see `LICENSE-CONTENT`.
+- The 9 referenced sub-skills keep their own licenses.
+- Contact: zhaoxinghua09@gmail.com ｜ ORCID `0009-0001-0512-1237`.
+
+## Links
+
+- Repo: https://github.com/zhaoxinghua09-cell/promptshield

@@ -1,0 +1,21 @@
+# PromptShield · AI Safety Suite (promptshield)
+
+> One install, your agent stops leaking secrets and obeying injected instructions. A bilingual methodology collection over 9 published agent-runtime-safety sub-skills: red-team → injection shield → leak scan → runtime guard → admission gate.
+
+`promptshield` is a *methodology collection* for agent runtime safety — one repo, one `SKILL.md` orchestrator, multi-vendor plugin shims, and a one-page ASCII lifecycle map. It ships theory (LGD three laws) + skills + evidence chain + admission gates as one auditable unit. It references sub-skills by slug only; internals are not vendored.
+
+## Core
+
+- [SKILL.md](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/SKILL.md): main orchestration (bilingual EN-first)
+- [scripts/promptshield_flow.py](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/scripts/promptshield_flow.py): read-only router (`--list` / `--route <stage>`)
+- [README.md](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/README.md): bilingual overview + one-page lifecycle
+- [install.sh](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/install.sh) / [install.ps1](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/install.ps1): one-click installer
+
+## Optional
+
+- [AGENTS.md](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/AGENTS.md): work guidance for AI agents
+- [llms-full.txt](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/llms-full.txt): full text for long-context models
+- [SECURITY.md](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/SECURITY.md): security policy
+- [CONTRIBUTING.md](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/CONTRIBUTING.md): contribution guide
+- [LICENSE](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/LICENSE): MIT for router code
+- [LICENSE-CONTENT](https://github.com/zhaoxinghua09-cell/promptshield/blob/main/LICENSE-CONTENT): all-rights-reserved for methodology prose
